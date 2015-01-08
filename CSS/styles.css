@@ -1,11 +1,46 @@
+/* full body default attributes*/
 body {
 	
 	font-size: 1em;
-	font-family: serif;
+	font-family: "Times New Roman";serif;
+	font-color:default;
 	
 }
-
+/* changed the color of headings "In the News" and "Featured Product"*/
+h2{
+	color:#002f1b;
+}
+/*changed the color of headings "Outlander Curry.." "Can Spice.." and "New Outlander..."*/
 h3{
 	color:#00743d;
+	text-decoration: underline;
 
+}
+
+/*navigation list in horizontal bar*/
+
+.nav {
+	
+	list-style: none;
+	background: #c1e492;
+	font-size:1.25em ;
+	font-family: "Times New Roman";serif;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+
+.nav li{
+
+	display:inline;
+}
+
+.copyright{
+	 background-color:#00743d;
+	 font-size: 0.8em;
+	 color:#fff;
+	 padding: 10px;
+	 padding-bottom:10px;
+	 margin-right: auto;
+	 margin-left: auto;
 }
