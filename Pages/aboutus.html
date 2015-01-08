@@ -3,11 +3,14 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Ticket Sales</title>
+		
+		<!--link to CSS-->
+		<link rel="stylesheet" href="../CSS/styles.css">
 	</head>
 
-	<!--navigation-->
+	<!--navigation throug pages-->
 		<nav>
-			<ul>
+			<ul class="navbar">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="products.html">Products</a></li>
 				<li><a href="recipes.html">Recipes</a></li>
@@ -19,18 +22,15 @@
 	
 	<body>
 		
-		<nav>
+		<nav><!--internal navigation within page-->
 			<ul>
-				<li><a href="/allspicedup/">All Spiced Up</a></li>
-				<li><a href="/expansionproject/">Expansion Project</a></li>
-				<li><a href="/projectteam/">The Project Team</a></li>
+				<li><a href="#allspicedup">All Spiced Up</a></li>
+				<li><a href="#expansionproject">Expansion Project</a></li>
+				<li><a href="#projectteam">The Project Team</a></li>
 			</ul>
 		</nav>
 
-		<h1 style= "text-align:center">All Spiced Up</h1>
-		<hr>
-
-		<h2> Our History</h2>
+		<h2 id="allspicedup">All Spiced Up</h2>
 		<p>Outlander Spices opened its doors in 1989 and has since become one of the largest spice companies in the world.</p>
 
 			<ul>
@@ -92,7 +92,7 @@
 		<p>We offer the majority of our products in money-saving bulk packages. These are usually 16-ounce packages that are sealed in vacuum bags to ensure freshness. Our bulk products have excellent shelf life because we are a direct grinder and blender of foods. You can be sure that the bulk packages you buy from Outlander Spice will have a very long shelf life.</p>
 		<hr>
 
-		<h2>Expansion Project</h2>
+		<h2 id="expansionproject">Expansion Project</h2>
 
 		<h3>Our valuable customers have a reason to rejoice!</h3> <p>Over the next two years, we are planning to expand our kiosk operations to the East and Midwest of the country to reach out to more customers. So, many stores in the East and Midwest will shortly have Outlander spices conveniently available to their customers.</p>
 
@@ -103,7 +103,7 @@
 		<hr><!--ask if you can use div instead of hr-->
 
 			<table>
-				<th colspan "2"><h2>The Project Team</h2></th>
+				<th colspan "2"><h2 id="projectteam">The Project Team</h2></th>
 				<tr>
 					<td>Ann Salinski
 					<br>VP Financial Services</br></td>

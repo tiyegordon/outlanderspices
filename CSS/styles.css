@@ -1,4 +1,8 @@
 /* full body default attributes*/
+/** {
+	outline: 2px dotted red;
+}*/
+
 body {
 	
 	font-size: 1em;
@@ -19,7 +23,15 @@ h3{
 
 /*navigation bar*/
 
-.navbar {
+.navbar{
+	background-color: #c1e492;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	display: inline;
+	margin-right: auto;
+	margin-left: auto;
+}
+.navbar li{
 	
 	list-style: none;
 	background-color: #c1e492;
