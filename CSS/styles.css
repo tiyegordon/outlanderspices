@@ -3,84 +3,97 @@
 	outline: 2px dotted red;
 }*/
 
-/*Parent Container*/
-.parentcontainer{  
+/*Logo*/
+
+.logo{
+	margin: 0;
+}
+
+.logo a{
 	
-	margin:0 auto;
-	width:960px;
-
+ width: 306px;
+ height: 154px;
+ display:block;
+ /*image replacement*/
+ background-image: url(../images/logo.gif);
+ text-indent: -999999px;
 }
 
-/*logo image*/
-
-.imageFloatLeft{
-	float:left
+.norepeat{
+	background-repeat: no-repeat;
 }
+/*Parts*/
 
-/*Page Main Header Container*/
+/*Navigation Container*/
 
-.mainHeaderContainer{
- width: 900px;
- height: 379px;
+	/*navigation bar*/
 
-
-}
-
-/*Background Imgae*/
-
-.headerBackgroundImage{
-
-	background-image: url (../images/homespices.jpg);
-	width:900px;
-	height:270px;
-	margin-bottom:30px;
-
-}
-
-/*Main Header Title Conatiner*/
-
-.mainHeaderTitleContainer{
-	
-	font-size: 1.38em 1.75em;
-	color:#fff;
-
-}
-
-/*Main Header Descriptino Paragraph Conatiner*/
+	.navContainer{
+		clear:both;
 
 
-/*Navigation Style*/
-/*navigation bar*/
+	}
 
-.navContainer{
-	clear:both;
+	.navbar{
+		background-color: #c1e492;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		/*display: inline;*/
+		margin:0;
+		
+	}
+
+	/*Navigation list links*/
+	.navbar li{
+		
+		list-style: none;
+		background-color: #c1e492;
+		font-size: 1em;
+		font-family: "Times New Roman";serif;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		display: inline;
+		margin-right: auto;
+		margin-left: auto;
+
+	}
 
 
-}
+	.HeaderLogos{
+	 width: 930px;
+	 margin: 0 auto;	
+	 background: url(../images/headerspices.jpg) no-repeat right bottom;
 
-.navbar{
-	background-color: #c1e492;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	/*display: inline;*/
-	margin-right: 0 auto;
-	margin-left: 0 auto;
-}
+	}
 
-/*Navigation list links*/
-.navbar li{
-	
-	list-style: none;
-	background-color: #c1e492;
-	font-size: 1em;
-	font-family: "Times New Roman";serif;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	display: inline;
-	margin-right: auto;
-	margin-left: auto;
+/*Market Leader Container*/
 
-}
+	/*Background Imgae*/
+
+	.headerBackgroundImage{
+
+		background-image: url (../images/homespices.jpg);
+		width:900px;
+		height:270px;
+		margin-bottom:30px;
+
+	}
+
+	/*Main Header Title Conatiner*/
+
+	.mainHeaderTitleContainer{
+		
+		font-size: 1.38em 1.75em;
+		color:#fff;
+
+	}
+
+	/*Main Header Description Paragraph Conatiner*/
+    .mainHeadParagraph{
+		font-size: 1em;
+		color:#333;
+
+    }
 
 /* Basic Styles of body*/
 body {
