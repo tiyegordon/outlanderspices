@@ -58,8 +58,7 @@
 		background-color: #c1e492;
 		font-size: 1em;
 		font-family: "Times New Roman";serif;
-		padding-bottom: 10px;
-		padding-top: 10px;
+		padding: 10px 0px;
 		display: inline;
 		margin-right: auto;
 		margin-left: auto;
@@ -84,6 +83,7 @@
 		margin-right: auto;
 		margin-left: auto;
 	 	background-image: url(../images/homespices.jpg);
+	 	background-image: no-repeat;
 
 }
 	
@@ -93,23 +93,44 @@
 		
 		font-size: 1.38em 1.75em;
 		color:#fff;
-		border-width: 0;
-		border-style: none;
+		margin-top: 0;
+		margin-bottom: 10px;
 
 	}
+
+	.MarketH{
+		font-size: 1.38em 1.75em;
+		color:#fff;
+		width: 400px;
+		padding:0;
+
+	}
+
+
 
 	/*Main Header Description Paragraph Conatiner*/
     .MarketLeader p{
 		font-size: 1em;
 		color:#333;
-		border-width: 0;
-		border-style: none;
+		margin-top:0;
+		
+
+
+    }
+
+    .MarketP{
+    	background-color: #fff;
+    	width: 415px;
+    	margin:0;
+    	position: center;
+    	padding: 15px;
 
     }
 
 .marketWrapper{
 
 	width: 930px;
+	padding:15px;
 	margin: 0 auto
 
 
@@ -120,6 +141,7 @@ body {
 	font-size: 1em;
 	font-family: "Times New Roman", serif;
 	font-color:default;
+	margin: 0;/*eliminates automatic margins on page*/
 	
 }
 /* changed the color of headings "In the News" and "Featured Product"*/
