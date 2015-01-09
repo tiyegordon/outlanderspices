@@ -18,10 +18,17 @@
  background-image: url(../images/logo.gif);
  text-indent: -999999px;
 }
+.HeaderLogos{
+	 width: 930px;
+	 margin: 0 auto;	
+	 background: url(../images/headerspices.jpg) no-repeat right bottom;
+
+}
 
 .norepeat{
 	background-repeat: no-repeat;
 }
+
 /*Parts*/
 
 /*Navigation Container*/
@@ -29,17 +36,18 @@
 	/*navigation bar*/
 
 	.navContainer{
-		clear:both;
+		background-color: #c1e492;
 
 
 	}
 
 	.navbar{
-		background-color: #c1e492;
 		padding-bottom: 10px;
 		padding-top: 10px;
 		/*display: inline;*/
-		margin:0;
+		/*margin:0;*/
+		width: 930px;
+	 	margin: 0 auto
 		
 	}
 
@@ -59,42 +67,53 @@
 	}
 
 
-	.HeaderLogos{
-	 width: 930px;
-	 margin: 0 auto;	
-	 background: url(../images/headerspices.jpg) no-repeat right bottom;
+/*.backgroun-image{*/
 
-	}
+		/*width: 930px;*/
+	 	/*margin: 0 auto*/
+	 	
+
+
+	/*}*/
 
 /*Market Leader Container*/
 
-	/*Background Imgae*/
+.MarketLeader{
 
-	.headerBackgroundImage{
+		margin-top: none;
+		margin-right: auto;
+		margin-left: auto;
+	 	background-image: url(../images/homespices.jpg);
 
-		background-image: url (../images/homespices.jpg);
-		width:900px;
-		height:270px;
-		margin-bottom:30px;
+}
+	
+/*Main Header Title Conatiner*/
 
-	}
-
-	/*Main Header Title Conatiner*/
-
-	.mainHeaderTitleContainer{
+	.MarketLeader h1{
 		
 		font-size: 1.38em 1.75em;
 		color:#fff;
+		border-width: 0;
+		border-style: none;
 
 	}
 
 	/*Main Header Description Paragraph Conatiner*/
-    .mainHeadParagraph{
+    .MarketLeader p{
 		font-size: 1em;
 		color:#333;
+		border-width: 0;
+		border-style: none;
 
     }
 
+.marketWrapper{
+
+	width: 930px;
+	margin: 0 auto
+
+
+}
 /* Basic Styles of body*/
 body {
 	
